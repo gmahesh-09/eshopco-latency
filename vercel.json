@@ -5,4 +5,10 @@
       "destination": "/api/latency"
     }
   ]
+  "builds": [
+    {
+      "src": "api/latency.py",
+      "use": "@vercel/python"
+    }
+  ]
 }
